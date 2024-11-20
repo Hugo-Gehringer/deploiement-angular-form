@@ -1,7 +1,7 @@
 {
   "name": "hugo-gehringer-cicd",
   "homepage": "https://hugo-gehringer.github.io/deploiement-angular-form/",
-  "version": "0.0.7",
+  "version": "0.0.10",
   "scripts": {
     "ng": "ng",
     "start": "ng serve",
