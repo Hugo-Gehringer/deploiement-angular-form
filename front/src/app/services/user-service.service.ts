@@ -44,6 +44,7 @@ export class UserService {
    * @returns {Promise<void>} A promise that resolves when the user is added.
    */
   async addUser(user: User): Promise<void> {
+    this.users.push(user);
     try {
       const response = await fetch(this.apiUrl, {
         method: 'POST',
